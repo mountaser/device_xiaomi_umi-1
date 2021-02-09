@@ -30,3 +30,6 @@ BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201005.004/6782484:user/release-
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# Havoc
+export export HAVOC_BUILD_TYPE=Official
